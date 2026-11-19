@@ -1,0 +1,7 @@
+.DS_Store
+node_modules/
+dist/
+docs-dist/
+library-dist/
+full-dist/
+my-results.json

@@ -1,0 +1,136 @@
+{
+  "libraryP2NoCache": {
+    "name": "library-p2-no-cache",
+    "code": 0,
+    "wallMs": 93254,
+    "builtIn": "92.76s",
+    "phases": [
+      {
+        "phase": "Building",
+        "atMs": 4252
+      },
+      {
+        "phase": "Bundling",
+        "atMs": 20737
+      },
+      {
+        "phase": "Packaging & Optimizing",
+        "atMs": 23433
+      },
+      {
+        "phase": "Built in",
+        "atMs": 92990,
+        "detail": "92.76s"
+      }
+    ],
+    "rusage": {
+      "realSec": 93.24,
+      "userSec": 321.91,
+      "sysSec": 16.89,
+      "effectiveCores": 3.63,
+      "maxRssGB": 5.69,
+      "peakFootprintGB": 5.266,
+      "instructionsBillions": 4447.73
+    }
+  },
+  "docsP3BuildS2": {
+    "name": "docs-p3-build-ssg-s2",
+    "code": 0,
+    "wallMs": 746,
+    "builtIn": "683.742125ms",
+    "phases": [
+      {
+        "phase": "Built in",
+        "atMs": 732,
+        "detail": "683.742125ms"
+      }
+    ],
+    "rusage": {
+      "realSec": 0.74,
+      "userSec": 3.77,
+      "sysSec": 0.78,
+      "effectiveCores": 6.15,
+      "maxRssGB": 0.706,
+      "peakFootprintGB": 0.687,
+      "instructionsBillions": 45.7
+    }
+  },
+  "docsP3RenderS2": {
+    "name": "docs-p3-render-ssg-s2",
+    "code": 1,
+    "wallMs": 50,
+    "builtIn": null,
+    "phases": [],
+    "rusage": {
+      "realSec": 0.04,
+      "userSec": 0.01,
+      "sysSec": 0,
+      "effectiveCores": 0.25,
+      "maxRssGB": 0.042,
+      "peakFootprintGB": 0.011,
+      "instructionsBillions": 0.24
+    },
+    "errTail": "[]\n}\n\nNode.js v24.12.0\n        0.04 real         0.01 user         0.00 sys\n            45432832  maximum resident set size\n                   0  average shared memory size\n                   0  average unshared data size\n                   0  average unshared stack size\n                2931  page reclaims\n                  70  page faults\n                   0  swaps\n                   0  block input operations\n                   0  block output operations\n                   2  messages sent\n                   0  messages received\n                   0  signals received\n                   7  voluntary context switches\n                  49  involuntary context switches\n           241663862  instructions retired\n            80551127  cycles elapsed\n            12305992  peak memory footprint\n"
+  },
+  "docsP3BuildRA": {
+    "name": "docs-p3-build-ssg-ra",
+    "code": 0,
+    "wallMs": 787,
+    "builtIn": "763.322541ms",
+    "phases": [
+      {
+        "phase": "Built in",
+        "atMs": 773,
+        "detail": "763.322541ms"
+      }
+    ],
+    "rusage": {
+      "realSec": 0.78,
+      "userSec": 3.37,
+      "sysSec": 0.75,
+      "effectiveCores": 5.28,
+      "maxRssGB": 0.809,
+      "peakFootprintGB": 0.771,
+      "instructionsBillions": 42.73
+    }
+  },
+  "docsP3RenderRA": {
+    "name": "docs-p3-render-ssg-ra",
+    "code": 1,
+    "wallMs": 24,
+    "builtIn": null,
+    "phases": [],
+    "rusage": {
+      "realSec": 0.02,
+      "userSec": 0.01,
+      "sysSec": 0,
+      "effectiveCores": 0.5,
+      "maxRssGB": 0.042,
+      "peakFootprintGB": 0.011,
+      "instructionsBillions": 0.24
+    },
+    "errTail": "[]\n}\n\nNode.js v24.12.0\n        0.02 real         0.01 user         0.00 sys\n            45334528  maximum resident set size\n                   0  average shared memory size\n                   0  average unshared data size\n                   0  average unshared stack size\n                2926  page reclaims\n                  68  page faults\n                   0  swaps\n                   0  block input operations\n                   0  block output operations\n                   2  messages sent\n                   0  messages received\n                   0  signals received\n                   0  voluntary context switches\n                  37  involuntary context switches\n           240207555  instructions retired\n            78072017  cycles elapsed\n            12224096  peak memory footprint\n"
+  },
+  "libraryP3Optimized": {
+    "name": "library-p3-optimized",
+    "code": 0,
+    "wallMs": 2272,
+    "builtIn": "2.107472417s",
+    "phases": [
+      {
+        "phase": "Built in",
+        "atMs": 2201,
+        "detail": "2.107472417s"
+      }
+    ],
+    "rusage": {
+      "realSec": 2.26,
+      "userSec": 11.85,
+      "sysSec": 5.69,
+      "effectiveCores": 7.76,
+      "maxRssGB": 1.219,
+      "peakFootprintGB": 1.199,
+      "instructionsBillions": 174.18
+    }
+  }
+}

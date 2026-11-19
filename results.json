@@ -1,0 +1,421 @@
+{
+  "storybook-p3-dev": {
+    "name": "storybook-p3-dev",
+    "exitCode": 0,
+    "builtIn": "559.648708ms",
+    "builtAtMs": 2202,
+    "totalWallMs": 2765,
+    "phases": [
+      {
+        "phase": "Built in",
+        "atMs": 2202,
+        "detail": "559.648708ms"
+      }
+    ],
+    "rusage": {
+      "realSec": 2.73,
+      "userSec": 2.13,
+      "sysSec": 0.25,
+      "effectiveCores": 0.87,
+      "maxRssGB": 0.489,
+      "peakFootprintGB": 0.47,
+      "instructionsBillions": 19.62,
+      "cyclesBillions": 6.7,
+      "ipc": 2.93,
+      "pageReclaims": 62727,
+      "voluntaryCtxSwitches": 2086,
+      "involuntaryCtxSwitches": 8468
+    },
+    "psSampled": {
+      "samples": 27,
+      "peakTreeRssGB": 1.145,
+      "peakTreeCpuPct": 868,
+      "peakTreeProcs": 7
+    }
+  },
+  "storybook-p2-dev-cold": {
+    "name": "storybook-p2-dev-cold",
+    "exitCode": 0,
+    "builtIn": "32.51s",
+    "builtAtMs": 34139,
+    "totalWallMs": 34945,
+    "phases": [
+      {
+        "phase": "Building",
+        "atMs": 1796
+      },
+      {
+        "phase": "Bundling",
+        "atMs": 30029
+      },
+      {
+        "phase": "Packaging & Optimizing",
+        "atMs": 31218
+      },
+      {
+        "phase": "Built in",
+        "atMs": 34139,
+        "detail": "32.51s"
+      }
+    ],
+    "rusage": {
+      "realSec": 34.93,
+      "userSec": 67.46,
+      "sysSec": 7.24,
+      "effectiveCores": 2.14,
+      "maxRssGB": 10.446,
+      "peakFootprintGB": 10.271,
+      "instructionsBillions": 801.8,
+      "cyclesBillions": 265.03,
+      "ipc": 3.03,
+      "pageReclaims": 796116,
+      "voluntaryCtxSwitches": 61760,
+      "involuntaryCtxSwitches": 238359
+    },
+    "psSampled": {
+      "samples": 346,
+      "peakTreeRssGB": 10.552,
+      "peakTreeCpuPct": 768,
+      "peakTreeProcs": 6
+    },
+    "cacheSize": {
+      "files": 9,
+      "bytes": 195443135,
+      "mb": 186.39
+    }
+  },
+  "storybook-p2-dev-warm": {
+    "name": "storybook-p2-dev-warm",
+    "exitCode": 0,
+    "builtIn": "28.31s",
+    "builtAtMs": 29820,
+    "totalWallMs": 30642,
+    "phases": [
+      {
+        "phase": "Building",
+        "atMs": 1646
+      },
+      {
+        "phase": "Bundling",
+        "atMs": 25947
+      },
+      {
+        "phase": "Packaging & Optimizing",
+        "atMs": 27501
+      },
+      {
+        "phase": "Built in",
+        "atMs": 29820,
+        "detail": "28.31s"
+      }
+    ],
+    "rusage": {
+      "realSec": 30.63,
+      "userSec": 69.34,
+      "sysSec": 8.62,
+      "effectiveCores": 2.55,
+      "maxRssGB": 10.6,
+      "peakFootprintGB": 10.522,
+      "instructionsBillions": 807.94,
+      "cyclesBillions": 274.02,
+      "ipc": 2.95,
+      "pageReclaims": 791095,
+      "voluntaryCtxSwitches": 36907,
+      "involuntaryCtxSwitches": 285915
+    },
+    "psSampled": {
+      "samples": 302,
+      "peakTreeRssGB": 10.646,
+      "peakTreeCpuPct": 902,
+      "peakTreeProcs": 6
+    }
+  },
+  "docs-p3-dev": {
+    "name": "docs-p3-dev",
+    "exitCode": 0,
+    "builtIn": "748.346042ms",
+    "builtAtMs": 759,
+    "totalWallMs": 1294,
+    "phases": [
+      {
+        "phase": "Built in",
+        "atMs": 759,
+        "detail": "748.346042ms"
+      }
+    ],
+    "rusage": {
+      "realSec": 1.29,
+      "userSec": 5.28,
+      "sysSec": 1.02,
+      "effectiveCores": 4.88,
+      "maxRssGB": 0.8,
+      "peakFootprintGB": 0.76,
+      "instructionsBillions": 65.13,
+      "cyclesBillions": 21.15,
+      "ipc": 3.08,
+      "pageReclaims": 53603,
+      "voluntaryCtxSwitches": 3442,
+      "involuntaryCtxSwitches": 16492
+    },
+    "psSampled": {
+      "samples": 12,
+      "peakTreeRssGB": 0.801,
+      "peakTreeCpuPct": 964,
+      "peakTreeProcs": 2
+    },
+    "output": {
+      "files": 2492,
+      "bytes": 275754374,
+      "mb": 262.98
+    }
+  },
+  "docs-p2-dev-cold": {
+    "name": "docs-p2-dev-cold",
+    "exitCode": 0,
+    "builtIn": "102.52s",
+    "builtAtMs": 102971,
+    "totalWallMs": 108306,
+    "phases": [
+      {
+        "phase": "Building",
+        "atMs": 1379
+      },
+      {
+        "phase": "Bundling",
+        "atMs": 17128
+      },
+      {
+        "phase": "Packaging & Optimizing",
+        "atMs": 63659
+      },
+      {
+        "phase": "Built in",
+        "atMs": 102971,
+        "detail": "102.52s"
+      }
+    ],
+    "rusage": {
+      "realSec": 108.27,
+      "userSec": 445.28,
+      "sysSec": 30.78,
+      "effectiveCores": 4.4,
+      "maxRssGB": 8.622,
+      "peakFootprintGB": 18.966,
+      "instructionsBillions": 5445.23,
+      "cyclesBillions": 1609.05,
+      "ipc": 3.38,
+      "pageReclaims": 3479876,
+      "voluntaryCtxSwitches": 111118,
+      "involuntaryCtxSwitches": 1414687
+    },
+    "psSampled": {
+      "samples": 1065,
+      "peakTreeRssGB": 8.612,
+      "peakTreeCpuPct": 1267,
+      "peakTreeProcs": 3
+    },
+    "output": {
+      "files": 2282,
+      "bytes": 1430733088,
+      "mb": 1364.45
+    },
+    "cacheSize": {
+      "files": 1228,
+      "bytes": 2425716002,
+      "mb": 2313.34
+    }
+  },
+  "docs-p2-dev-warm": {
+    "name": "docs-p2-dev-warm",
+    "exitCode": 0,
+    "builtIn": "92.32s",
+    "builtAtMs": 93438,
+    "totalWallMs": 98801,
+    "phases": [
+      {
+        "phase": "Building",
+        "atMs": 2256
+      },
+      {
+        "phase": "Bundling",
+        "atMs": 16679
+      },
+      {
+        "phase": "Packaging & Optimizing",
+        "atMs": 58568
+      },
+      {
+        "phase": "Built in",
+        "atMs": 93438,
+        "detail": "92.32s"
+      }
+    ],
+    "rusage": {
+      "realSec": 98.79,
+      "userSec": 448.93,
+      "sysSec": 27.42,
+      "effectiveCores": 4.82,
+      "maxRssGB": 14.152,
+      "peakFootprintGB": 21.358,
+      "instructionsBillions": 5536.93,
+      "cyclesBillions": 1630.01,
+      "ipc": 3.4,
+      "pageReclaims": 3227397,
+      "voluntaryCtxSwitches": 138911,
+      "involuntaryCtxSwitches": 1291301
+    },
+    "psSampled": {
+      "samples": 969,
+      "peakTreeRssGB": 14.138,
+      "peakTreeCpuPct": 1309,
+      "peakTreeProcs": 3
+    },
+    "output": {
+      "files": 2282,
+      "bytes": 1489889031,
+      "mb": 1420.87
+    }
+  },
+  "library-p3-cold": {
+    "name": "library-p3-cold",
+    "exitCode": 0,
+    "builtIn": "2.285278417s",
+    "builtAtMs": 2428,
+    "totalWallMs": 2502,
+    "phases": [
+      {
+        "phase": "Built in",
+        "atMs": 2428,
+        "detail": "2.285278417s"
+      }
+    ],
+    "rusage": {
+      "realSec": 2.49,
+      "userSec": 11.62,
+      "sysSec": 6.16,
+      "effectiveCores": 7.14,
+      "maxRssGB": 1.226,
+      "peakFootprintGB": 1.208,
+      "instructionsBillions": 174.77,
+      "cyclesBillions": 59.58,
+      "ipc": 2.93,
+      "pageReclaims": 82556,
+      "voluntaryCtxSwitches": 7019,
+      "involuntaryCtxSwitches": 104303
+    },
+    "psSampled": {
+      "samples": 24,
+      "peakTreeRssGB": 1.226,
+      "peakTreeCpuPct": 1218,
+      "peakTreeProcs": 2
+    },
+    "output": {
+      "files": 29308,
+      "bytes": 91446261,
+      "mb": 87.21
+    }
+  },
+  "library-p2-cold": {
+    "name": "library-p2-cold",
+    "exitCode": 0,
+    "builtIn": "91.71s",
+    "builtAtMs": 92446,
+    "totalWallMs": 94343,
+    "phases": [
+      {
+        "phase": "Building",
+        "atMs": 11236
+      },
+      {
+        "phase": "Bundling",
+        "atMs": 22071
+      },
+      {
+        "phase": "Packaging & Optimizing",
+        "atMs": 24708
+      },
+      {
+        "phase": "Built in",
+        "atMs": 92446,
+        "detail": "91.71s"
+      }
+    ],
+    "rusage": {
+      "realSec": 94.32,
+      "userSec": 320.48,
+      "sysSec": 16.15,
+      "effectiveCores": 3.57,
+      "maxRssGB": 5.948,
+      "peakFootprintGB": 5.449,
+      "instructionsBillions": 4570.75,
+      "cyclesBillions": 1211.76,
+      "ipc": 3.77,
+      "pageReclaims": 575948,
+      "voluntaryCtxSwitches": 135941,
+      "involuntaryCtxSwitches": 684432
+    },
+    "psSampled": {
+      "samples": 931,
+      "peakTreeRssGB": 5.949,
+      "peakTreeCpuPct": 684,
+      "peakTreeProcs": 3
+    },
+    "output": {
+      "files": 28726,
+      "bytes": 96151929,
+      "mb": 91.7
+    },
+    "cacheSize": {
+      "files": 7,
+      "bytes": 513636199,
+      "mb": 489.84
+    }
+  },
+  "library-p2-warm": {
+    "name": "library-p2-warm",
+    "exitCode": 0,
+    "builtIn": "6.89s",
+    "builtAtMs": 7091,
+    "totalWallMs": 7999,
+    "phases": [
+      {
+        "phase": "Building",
+        "atMs": 1447
+      },
+      {
+        "phase": "Bundling",
+        "atMs": 2303
+      },
+      {
+        "phase": "Built in",
+        "atMs": 7091,
+        "detail": "6.89s"
+      }
+    ],
+    "rusage": {
+      "realSec": 7.98,
+      "userSec": 12.76,
+      "sysSec": 8.08,
+      "effectiveCores": 2.61,
+      "maxRssGB": 3.148,
+      "peakFootprintGB": 2.78,
+      "instructionsBillions": 197.81,
+      "cyclesBillions": 73.74,
+      "ipc": 2.68,
+      "pageReclaims": 249829,
+      "voluntaryCtxSwitches": 5212,
+      "involuntaryCtxSwitches": 177410
+    },
+    "psSampled": {
+      "samples": 79,
+      "peakTreeRssGB": 3.149,
+      "peakTreeCpuPct": 590,
+      "peakTreeProcs": 3
+    },
+    "output": {
+      "files": 28726,
+      "bytes": 96151929,
+      "mb": 91.7
+    }
+  }
+}

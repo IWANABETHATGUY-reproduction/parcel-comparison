@@ -1,0 +1,10 @@
+{
+  "name": "@react-spectrum-build-bench/storybook",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build:vite": "node ../../benchmark.mjs --arm vite storybook",
+    "build:parcel": "node ../../benchmark.mjs --arm parcel storybook",
+    "benchmark": "node ../../benchmark.mjs storybook"
+  }
+}

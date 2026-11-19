@@ -1,0 +1,34 @@
+{
+  "name": "react-spectrum-build-bench",
+  "private": true,
+  "type": "module",
+  "workspaces": ["app/*"],
+  "scripts": {
+    "build:storybook": "node benchmark.mjs --arm vite storybook",
+    "build:docs": "node benchmark.mjs --arm vite docs",
+    "build:library": "node benchmark.mjs --arm vite library",
+    "benchmark": "node benchmark.mjs"
+  },
+  "dependencies": {
+    "@mdx-js/rollup": "latest",
+    "@storybook/react-vite": "10.3.5",
+    "@tailwindcss/vite": "latest",
+    "@vitejs/plugin-react": "latest",
+    "@vitejs/plugin-rsc": "0.5.39",
+    "fast-glob": "latest",
+    "json5": "latest",
+    "lightningcss": "latest",
+    "postcss": "latest",
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "react-server-dom-webpack": "19.3.0",
+    "remark-frontmatter": "latest",
+    "remark-gfm": "latest",
+    "remark-mdx-frontmatter": "latest",
+    "storybook": "10.3.5",
+    "typescript": "5.9.3",
+    "unplugin-parcel-macros": "latest",
+    "vite": "8.3.8",
+    "vite-plugin-svgr": "latest"
+  }
+}

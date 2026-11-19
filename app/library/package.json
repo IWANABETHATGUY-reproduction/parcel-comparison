@@ -1,0 +1,10 @@
+{
+  "name": "@react-spectrum-build-bench/library",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build:vite": "node ../../benchmark.mjs --arm vite library",
+    "build:parcel": "node ../../benchmark.mjs --arm parcel library",
+    "benchmark": "node ../../benchmark.mjs library"
+  }
+}

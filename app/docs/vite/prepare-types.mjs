@@ -3,6 +3,7 @@ import fs from 'node:fs/promises';
 import path from 'node:path';
 import fg from 'fast-glob';
 import {RS} from '../../../shared/plugins.mjs';
+import {parcelExecutable} from '../../../shared/parcel.mjs';
 
 export const docsRoot = path.join(RS, 'packages/dev/s2-docs');
 
@@ -35,8 +36,7 @@ export async function prepareTypes(workspace, output) {
     const entry = path.join(scratch, 'types.mjs');
     const dist = path.join(scratch, 'dist');
     await fs.writeFile(entry, `${imports.join('\n')}\nconsole.log(JSON.stringify({${entries.join(',')}}));\n`);
-    const command = path.join(workspace, 'node_modules/.bin/parcel3');
-    execFileSync(command, ['build', entry, '--config', '.parcelrc-s2-docs-v3', '--dist-dir', dist, '--no-optimize'], {
+    execFileSync(parcelExecutable(workspace), ['build', entry, '--config', '.parcelrc-s2-docs-v3', '--dist-dir', dist, '--no-optimize'], {
       cwd: docs,
       stdio: 'inherit'
     });

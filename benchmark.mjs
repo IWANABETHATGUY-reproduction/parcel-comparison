@@ -5,6 +5,7 @@ import os from 'node:os';
 import path from 'node:path';
 import {parseArgs} from 'node:util';
 import {RS} from './shared/plugins.mjs';
+import {parcelExecutable} from './shared/parcel.mjs';
 import {packageDirs} from './app/library/vite/build.mjs';
 
 const bench = import.meta.dirname;
@@ -72,7 +73,10 @@ for (const library of ['s2', 'react-aria']) {
   const pages = await fs.readdir(path.join(docs, 'pages', library), {recursive: true});
   docsPages[library] = pages.filter(page => page.endsWith('.mdx')).length;
 }
-const parcel3 = path.join(parcelBin, 'parcel3');
+const parcel3 = parcelExecutable(parcel);
+const nativeTools = path.join(scratch, 'bin');
+await fs.mkdir(nativeTools);
+await fs.symlink(parcel3, path.join(nativeTools, 'parcel3'));
 const node = process.execPath;
 const libOutputs = packageDirs.map(dir => path.join(parcel, 'packages', dir, 'dist'));
 for (const dir of ['icons', 'illustrations', 'style/dist']) {
@@ -111,7 +115,7 @@ function treeRss(root) {
 async function measure(label, trial, command, args, cwd, extraEnv = {}) {
   const log = path.join(scratch, `${label}-${trial}.log`);
   const stream = createWriteStream(log);
-  const env = {...process.env, PATH: `${path.dirname(node)}:${parcelBin}:${process.env.PATH}`, ...extraEnv};
+  const env = {...process.env, PATH: `${path.dirname(node)}:${nativeTools}:${parcelBin}:${process.env.PATH}`, ...extraEnv};
   const start = performance.now();
   const child = spawn('/usr/bin/time', ['-l', command, ...args], {cwd, env, stdio: ['ignore', 'pipe', 'pipe']});
   child.stdout.pipe(stream, {end: false});
